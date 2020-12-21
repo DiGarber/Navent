@@ -1,0 +1,27 @@
+
+.btn {
+    height: 60px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    font-family: "Hind Vadodara";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    /* color: #FFFFFF;
+    background-color:#0A26EE ; */
+    color: #0A26EE;
+    background: #FFFFFF;
+    border: 1px solid #0A26EE;
+    box-sizing: border-box;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-active:hover {background-color: #afb6f752}
+
+.disabled {
+    color: #C3C2C8;
+    border: 1px solid #C3C2C8;    
+}

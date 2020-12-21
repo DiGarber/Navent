@@ -1,0 +1,90 @@
+.div-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.hidden {
+  color: #ffffff;
+}
+.sub-container {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  font-family: "Hind Vadodara", sans-serif;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 6px 15px 2px rgba(0, 0, 0, 0.55);
+  box-shadow: 5px 6px 15px 2px rgba(0, 0, 0, 0.55);
+  background-color: white;
+  flex-direction: column;
+}
+
+.h1-end {
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+  color: black;
+  font-size: 50px;
+}
+
+.p-end {
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+  color: black;
+  font-size: 22px;
+}
+
+.btn-center {
+  border-radius: 8px;
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 21px;
+  line-height: 16px;
+  height: 70px;
+  width: 160px;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  margin: 3%;
+}
+
+.aprobado {
+  color: #3d47f5;
+}
+
+.answers{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.wrong-answers-title {
+  margin-block-end: 1px;
+  margin-block-start: 3px;
+}
+
+.wrong-answer {
+  color: #e90066;
+  margin-block-end: 1px;
+  margin-block-start: 1px;
+}
+
+.correct-answer {
+  color: #1cac47;
+  margin-block-end: 1px;
+  margin-block-start: 1px;
+}
+
+.bgtest{
+  margin-top: 20vh;
+}

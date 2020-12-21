@@ -1,0 +1,21 @@
+.userSkills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.skillButton {
+  margin: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.37);
+}
+
+.skillls-p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}

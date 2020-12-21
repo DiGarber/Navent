@@ -1,0 +1,14 @@
+.users {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  
+}
+
+.userButton {
+  margin: 10px;
+  padding: 10px;
+}
